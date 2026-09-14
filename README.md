@@ -28,7 +28,7 @@ those rows. It is also important to sum the deaths column rather than count the 
 each row is a summary of a group rather than a singular death.
 
 
-# Question 2: how many deaths were recorded for each sex
+# Question 2: How many deaths were recorded for each sex
 #df["Sex"] = df["Sex"].replace({"F": "Female", "M": "Male"})
 #print(df.groupby("Sex")["Deaths"].sum())
 #output: Female    422602.0.  Male      420457.0
@@ -40,7 +40,7 @@ and the deaths column stores the size of that group. The dataset also originally
 the same category two different ways (F and Female / M and Male), so I standardized those 
 labels first, otherwise the totals would have been split across duplicate groups.
 
-# Question: How many Adult vs Juvenile squirrels are there overall?
+# Question 3: How many deaths were recorded for each sex in 2021?
 #year_2011 = df[df["Year"] == 2011]
 #print(year_2011.groupby("Sex")["Deaths"].sum())
 #output: Female    27075.0.      Male      25651.0
@@ -53,7 +53,7 @@ the 2021 first, then grouped the remaining rows by sex, which combines both cond
 
 
 
-What the Data Cannot Answer
+# What the Data Cannot Answer
 
 The data wouldn't be able to help me answer the question "how old were people when they died of X cause". The dataset 
 does not have an "age" column, and the "age adjusted death rate" is something completely different. This is also because
