@@ -2,9 +2,9 @@
 
 
 ## Why I Chose This Dataset
-I chose this dataset because although it is quite morbid, I find it interesting to which combination of leading cause and other factors
+I chose this dataset because although it is quite morbid, I find it interesting to see which combination of leading cause and other factors
 lead to the most deaths in NYC. 
-What made the dataset unique to work with aswell is that each row is not one death. Each row is a summary of one combination of 
+What made the dataset unique to work with aswell is that each row is not tied to one death. Instead, each row is a summary of one combination of 
 year, cause, sex, and race group, with a death count attached.
 The structure of the dataset also covers all the required criteria such as having more than 100 
 rows, 5 columns, and multiple categorical columns. 
