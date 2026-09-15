@@ -58,8 +58,9 @@ the 2021 first, then grouped the remaining rows by sex, which combines both cond
 The data wouldn't be able to help me answer the question "how old were people when they died of X cause". The dataset 
 does not have an "age" column, and the "age adjusted death rate" is something completely different. This is also because
 the data is grouped, as in each row does not convey individual deaths, but rather a group of people who died from the 
-same leading cause. Even if there was an average age of death for the leading cause, I don't think that data really 
-answers the original question well. 
+same leading cause. Even if there was an average age of death for the leading cause, I don't think that information really 
+captures / answers the question of "how old were people when they died of X cause". This question will be extremely useful 
+when looking at medical and/or major illness related causes. 
 
 
 
