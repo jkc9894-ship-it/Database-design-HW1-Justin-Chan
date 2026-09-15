@@ -48,7 +48,7 @@ labels first, otherwise the totals would have been split across duplicate groups
 Why the data structure supports this question:
 
 This works because Year and Sex are stored on the same row as the death count, so
-the data can be narrowed by one column and then summarized by another. I Filtered
+the data can be narrowed by one column and then summarized by another. I filtered
 the 2021 first, then grouped the remaining rows by sex, which combines both conditions.
 
 
